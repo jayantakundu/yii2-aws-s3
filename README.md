@@ -3,13 +3,18 @@ Yii2 AWS S3
 An Amazon S3Client wrapper as Yii2 component.
 
 ## Installation
+Add component to `config/main.php`
 ```php
+'components' => [
+// ...
 's3' => array (
             'class' => 'app\components\AmazonS3',
             'key' => 'your aws s3 key',
             'secret' => 'your aws s3 secret',
             'bucket' => 'your aws s3 bucket',
         ),
+// ...        
+],        
 ```
 ## Usage
 
