@@ -3,6 +3,11 @@ Yii2 AWS S3
 An Amazon S3Client wrapper as Yii2 component.
 
 ## Installation
+Run Composer to install latest aws sdk
+```php
+composer require aws/aws-sdk-php
+```
+
 Add component to `config/main.php`
 ```php
 'components' => [
